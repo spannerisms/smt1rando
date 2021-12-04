@@ -1,0 +1,9 @@
+*.sfc
+*.lnk
+*.jar
+*.zip
+test/*
+*/*/bin/*
+*/*/obj/*
+.vs/*
+*/.vs/*
