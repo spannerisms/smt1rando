@@ -36,6 +36,7 @@
     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
     <SignAssembly>False</SignAssembly>
     <PlatformTarget>AnyCPU</PlatformTarget>
+    <ProduceReferenceAssembly>False</ProduceReferenceAssembly>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Resources\chest.png" />
