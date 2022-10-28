@@ -1,10 +1,8 @@
-﻿using System.Drawing;
-
-namespace SMTRandoApp.Utility;
+﻿namespace SMTRandoApp.Utility;
 
 internal static class Constants {
 	// meta info
-	public const string VERSION = "v0.0.3 Beta";
+	public static readonly string VERSION = typeof(MainForm).Assembly.GetName().Version.ToString(2);
 
 	// generation info
 	public const int SMTSIZE = 0x180000;

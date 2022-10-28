@@ -7,4 +7,5 @@ test/*
 */*/obj/*
 .vs/*
 */.vs/*
-*.csproj.user
+*.user
+*/Setup/*

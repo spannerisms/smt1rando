@@ -1,6 +1,6 @@
 ﻿namespace SMTRandoApp
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
 			this.components = new System.ComponentModel.Container();
-			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
 			this.openROM = new System.Windows.Forms.OpenFileDialog();
 			this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
 			this.spoilersBox = new System.Windows.Forms.CheckBox();
@@ -677,7 +677,6 @@
 			this.releaseLink.TabIndex = 0;
 			this.releaseLink.TabStop = true;
 			this.releaseLink.Text = "Releases page";
-			this.releaseLink.Visible = false;
 			this.releaseLink.VisitedLinkColor = System.Drawing.Color.Blue;
 			this.releaseLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ReleaseLink_LinkClicked);
 			// 
@@ -1263,7 +1262,7 @@
 			this.MagOrbRandoBox.FormattingEnabled = true;
 			this.MagOrbRandoBox.Location = new System.Drawing.Point(141, 264);
 			this.MagOrbRandoBox.Name = "MagOrbRandoBox";
-			this.MagOrbRandoBox.Size = new System.Drawing.Size(141, 21);
+			this.MagOrbRandoBox.Size = new System.Drawing.Size(140, 21);
 			this.MagOrbRandoBox.TabIndex = 19;
 			// 
 			// label26
@@ -1781,7 +1780,7 @@
 			this.webBrowser1.TabStop = false;
 			this.webBrowser1.WebBrowserShortcutsEnabled = false;
 			// 
-			// Form1
+			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -1796,7 +1795,7 @@
 			this.MaximumSize = new System.Drawing.Size(625, 424);
 			this.MinimizeBox = false;
 			this.MinimumSize = new System.Drawing.Size(625, 424);
-			this.Name = "Form1";
+			this.Name = "MainForm";
 			this.Padding = new System.Windows.Forms.Padding(2, 2, 0, 2);
 			this.Text = "Shin Megami Tensei 1 (SNES) Randomizer";
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

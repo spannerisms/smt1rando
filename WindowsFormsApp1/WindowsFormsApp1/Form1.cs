@@ -3,8 +3,8 @@ using System.Text.RegularExpressions;
 using System.IO.IsolatedStorage;
 
 namespace SMTRandoApp;
-public partial class Form1 : Form {
-	public Form1() {
+public partial class MainForm : Form {
+	public MainForm() {
 		InitializeComponent();
 		SetUp();
 		FindSavedROMs();
@@ -254,7 +254,7 @@ public partial class Form1 : Form {
 
 		SetDefaultControls(this);
 
-		Text = $"Shin Megami Tensei 1 (SNES) Randomizer - {VERSION}";
+		Text = $"Shin Megami Tensei 1 (SNES) Randomizer - v{VERSION}";
 		versionLabel.Text = VERSION;
 
 		webBrowser1.DocumentText = Properties.Resources.help;

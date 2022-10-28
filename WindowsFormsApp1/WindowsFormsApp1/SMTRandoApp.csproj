@@ -32,28 +32,45 @@
     <ApplicationIcon>icon.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject />
+    <StartupObject>SMTRandoApp.Program</StartupObject>
     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
     <SignAssembly>False</SignAssembly>
     <PlatformTarget>AnyCPU</PlatformTarget>
-    <ProduceReferenceAssembly>False</ProduceReferenceAssembly>
   </PropertyGroup>
   <ItemGroup>
+    <None Remove="Resources\armor.png" />
+    <None Remove="Resources\bar.png" />
     <None Remove="Resources\chest.png" />
     <None Remove="Resources\darkroom.png" />
+    <None Remove="Resources\drugs.png" />
     <None Remove="Resources\elevator.png" />
     <None Remove="Resources\exit.png" />
+    <None Remove="Resources\freehole.png" />
+    <None Remove="Resources\gaia.png" />
     <None Remove="Resources\GENERATE.png" />
+    <None Remove="Resources\guns.png" />
     <None Remove="Resources\heeho.png" />
+    <None Remove="Resources\jakyou.png" />
     <None Remove="Resources\jashin megami tensei.png" />
+    <None Remove="Resources\junk.png" />
+    <None Remove="Resources\kaifuku.png" />
+    <None Remove="Resources\mesia.png" />
     <None Remove="Resources\npc.png" />
     <None Remove="Resources\pascal.png" />
+    <None Remove="Resources\rags.png" />
     <None Remove="Resources\stairsdown.png" />
     <None Remove="Resources\stairsup.png" />
+    <None Remove="Resources\steven.png" />
+    <None Remove="Resources\terminal.png" />
     <None Remove="Resources\theoctopus.png" />
+    <None Remove="Resources\trap.png" />
+    <None Remove="Resources\warp.png" />
+    <None Remove="Resources\weapons.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="icon.ico" />
+    <Content Include="icon.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.8">
@@ -68,18 +85,39 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Resources\armor.png" />
+    <EmbeddedResource Include="Resources\bar.png" />
     <EmbeddedResource Include="Resources\chest.png" />
     <EmbeddedResource Include="Resources\darkroom.png" />
+    <EmbeddedResource Include="Resources\drugs.png" />
     <EmbeddedResource Include="Resources\elevator.png" />
     <EmbeddedResource Include="Resources\exit.png" />
+    <EmbeddedResource Include="Resources\freehole.png" />
+    <EmbeddedResource Include="Resources\gaia.png" />
     <EmbeddedResource Include="Resources\GENERATE.png" />
+    <EmbeddedResource Include="Resources\guns.png" />
     <EmbeddedResource Include="Resources\heeho.png" />
+    <EmbeddedResource Include="Resources\help.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\jakyou.png" />
     <EmbeddedResource Include="Resources\jashin megami tensei.png" />
+    <EmbeddedResource Include="Resources\junk.png" />
+    <EmbeddedResource Include="Resources\kaifuku.png" />
+    <EmbeddedResource Include="Resources\mesia.png" />
     <EmbeddedResource Include="Resources\npc.png" />
     <EmbeddedResource Include="Resources\pascal.png" />
+    <EmbeddedResource Include="Resources\rags.png" />
     <EmbeddedResource Include="Resources\stairsdown.png" />
     <EmbeddedResource Include="Resources\stairsup.png" />
-    <EmbeddedResource Include="Resources\theoctopus.png" />
+    <EmbeddedResource Include="Resources\steven.png" />
+    <EmbeddedResource Include="Resources\terminal.png" />
+    <EmbeddedResource Include="Resources\theoctopus.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\trap.png" />
+    <EmbeddedResource Include="Resources\warp.png" />
+    <EmbeddedResource Include="Resources\weapons.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="lib\" />
